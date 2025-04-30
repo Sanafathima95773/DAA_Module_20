@@ -15,7 +15,7 @@ To solve the Graph Coloring Problem using backtracking, assigning colors to the 
 7. If the recursive call returns True, propagate success; otherwise, backtrack by resetting colour[v] = 0.
 8. If no color can be assigned to the current vertex, return False.
 9. Define the function graphColouring that initializes a color list with zeros and starts the coloring process by calling graphColourUtil.
-10.If coloring is successful, print the colors assigned to each vertex; otherwise, return False.  
+10. If coloring is successful, print the colors assigned to each vertex; otherwise, return False.    
 
 ## Program:
 ```
