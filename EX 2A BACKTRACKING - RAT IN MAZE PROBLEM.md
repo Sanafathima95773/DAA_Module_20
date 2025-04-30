@@ -17,6 +17,7 @@ To implement the Rat in a Maze problem using backtracking and find all possible 
 10.Backtrack: If both right and down are blocked, backtrack by setting sol[x][y] = 0 and return False.   
 
 ## Program:
+```
 Program to implement Rat in a Maze.
 
 Developed by: Sana Fathima H
@@ -61,6 +62,7 @@ if __name__ == "__main__":
              [1, 1, 1, 1] ]
               
     solveMaze(maze)
+```
 
 ## Output:
 ![image](https://github.com/user-attachments/assets/793a7cae-3612-41de-8016-14fbfa315214)
